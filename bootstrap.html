@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./introStyles.css">
+    <title>Intro Page</title>
+</head>
+
+
+<body>
+    <div class="containerBox">
+        <div class="ageContainer">
+            <h1>Must Be 18 years or Older to Enter this Page!</h1>
+
+            <input type="tel" maxlength="2" div id="on_month" placeholder="MM">
+            <input type="tel" maxlength="2" div id="on_day" placeholder="DD">
+            <input type="tel" maxlength="4" div id="on_year" placeholder="YYYY">
+        </div>
+        <div class="verifyButton">
+            <button id="verify" onclick="getAge();"> Verify </button>
+        </div>
+        <br>
+        <div id="on_link"></div>
+    </div>
+
+
+
+    <script src="./functionCalculateAge.js">
+    </script>
+
+
+
+</body>
+
+</html>
